@@ -102,7 +102,7 @@
         </createTable>
     </changeSet>
   <changeSet id="8" author="bob">
-        <createTable tableName="department-db">
+        <createTable tableName="department-db-9">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
