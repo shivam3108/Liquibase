@@ -88,8 +88,10 @@
                 <constraints nullable="false"/>
             </column>
             <column name="active" type="boolean" defaultValueBoolean="true"/>
-        </createTable>
-    <createTable tableName="department-db-8">
+        </createTable>  
+    </changeSet>
+  <changeSet id="6" author="bob">
+        <createTable tableName="department-db-8">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
