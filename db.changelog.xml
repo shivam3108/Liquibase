@@ -90,7 +90,7 @@
             <column name="active" type="boolean" defaultValueBoolean="true"/>
         </createTable>  
     </changeSet>
-  <changeSet id="6" author="bob">
+  <changeSet id="7" author="bob">
         <createTable tableName="department-db-8">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
