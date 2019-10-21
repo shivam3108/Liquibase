@@ -89,7 +89,7 @@
             </column>
             <column name="active" type="boolean" defaultValueBoolean="true"/>
         </createTable>
-    <createTable tableName="department-db-7">
+    <createTable tableName="department-db-8">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
